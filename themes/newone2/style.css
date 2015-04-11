@@ -1,0 +1,519 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.aligncenter,div.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.alignleft {
+  float: left;
+  }
+.alignright {
+  float: right;
+  }
+
+
+
+a:hover ,a:link, a:visited  { 
+text-decoration:none; }
+
+.wrapper{
+	width:1663px;
+	margin:0 auto;
+	
+
+}
+
+
+.wrapper-for-back{
+	width:1645px;
+	margin:15px auto;
+	background-color:#F6F6F6;
+
+}
+.header-wrap h1  {
+ margin:0 0 0 135px;
+
+}
+
+.header-wrap h1  p{
+ text-indent: -9999px;
+
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header{
+
+	height:162px;
+}
+
+.header ul{
+	display:inline-block;
+	float: right;
+	margin:-50px 120px 0 0 ;
+}
+
+
+.header ul li{
+	display:inline;
+	margin:0 65px 0 0;
+}
+
+
+.header ul li a{
+
+	font:bold 16px "Code Light";
+	color:#000000;
+	padding: 30px 5px 30px 5px;
+	text-transform: uppercase ;
+}
+
+.header ul li a:hover{
+	background-color: #FFE900;
+	border-radius: 2px;
+}
+
+
+.bar{
+
+width:1663px;
+height:150px;
+background: url(images/header.jpg) 0 0 no-repeat;
+margin: 0 0 35px 0 ;
+
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.citata{
+margin:30px 30px 30px 0;
+
+width:550px;
+height:70px;
+background-color:#FFE900;
+font:bold 21px "Century Gothic";
+color:#000000;
+font-style: italic;
+display:block;
+}
+
+.citata h2{
+padding: 10px 45px 0px 45px;
+font:bold 21px "Century Gothic";
+color:#000000;
+font-style: italic;
+
+}
+.citata span{
+margin:0 10px 10px 55px;
+font:bold 11px "Century Gothic";
+color:#000000;
+font-style: italic;
+display:inline;
+}
+
+
+
+.news{
+margin:30px 0 0 0;
+
+display:block;
+background-color:#FFE900;
+width:550px;
+height:625px;
+}
+
+.news  h3 {
+width:453px;
+font:bold 23px "Century Gothic";
+color:#000000;
+margin:25px;
+}
+
+
+.news .text-news {
+
+width:499px;
+font:bold 14px "Century Gothic";
+color:#5E5E5E;
+float:left;
+margin:0px 25px 25px 25px;
+}
+
+
+.body-news {
+margin :-15px auto;
+
+}
+
+
+.news-footer{
+margin:0px  25px 25px 25px;
+display:inline;
+}
+
+.news-footer p{
+
+font:bold 12px "Century Gothic";
+color:#000000;
+display:inline-block;
+
+}
+
+
+.news-footer p {
+float:right;
+padding:0 15px 0 0 ;
+
+}
+
+
+
+
+.center-news,div.center-news {
+float: left;
+
+}
+.left-news {
+display: inline;
+  float: left;
+  }
+.sidebar {
+display: inline;
+  float: right;
+  }
+  
+  
+  
+  
+  
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.search {
+width:473px;
+height:70px;
+margin:30px 0 0 0;
+background-color:#414147;
+
+}
+
+#search {
+
+}
+	
+.search-form{
+
+padding:15px 40px 15px 60px;
+
+}
+#search input[type="text"] {
+    
+	
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 320px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+	
+.categories{
+margin:30px 0 0 0;
+width:473px;
+height:351px;
+background-color:#414147;
+
+}
+.categories ul  ,.categories ul li a{
+display:inline-block;
+
+}
+
+
+
+.categories h2{
+font:bold 20px "Century Gothic";
+text-transform: uppercase ;
+color:#FFE900;
+padding:35px 0 0 35px;;
+}
+
+
+.categories li a {
+font:bold 16px "Century Gothic";
+color:#FFFFFF;
+text-transform: uppercase ;
+
+
+}
+.categories-first{
+margin:30px 45px 0 0;
+ width: 200px;
+display:inline;
+}
+.categories-second{
+
+ width: 200px;
+display:inline;
+}
+
+.categories-all{
+margin:32px;
+
+}
+
+
+.categories li a span{
+
+margin:0 15px 0 15px;
+
+}
+
+
+.categories li a {
+
+margin:0 0 10px 0 ;
+
+}
+
+
+
+
+.news-lists{
+
+margin:30px 0 0 0;
+width:473px;
+height:566px;
+background-color:#414147;
+
+}
+
+
+.news-lists h2{
+font:bold 20px "Century Gothic";
+text-transform: uppercase ;
+color:#FFE900;
+padding:35px 0 0 35px;;
+}
+
+.news-lists ul {
+
+padding:35px;
+width:400px;
+height:70px;
+}
+
+.news-lists ul li >img{
+
+margin:0 0 25px 0;
+
+}
+
+
+.news-lists ul  li >img {
+
+width:100px;
+height:70px;
+float:left;
+padding:0 12px 0 0;
+}
+
+
+
+.news-lists ul  li a {
+font:bold 16px "Century Gothic";
+text-transform: uppercase ;
+color:#FFFFFF;
+
+}
+
+
+
+.news-lists ul  li span  ,.news-lists ul  li  span a{
+font:bold 12px "Century Gothic";
+text-transform: uppercase ;
+color:#FFE900;
+float:right;
+
+}
+
+.likes{
+padding:12px 0 0 0 ;
+
+}
+
+
+
+
+.tags{
+margin:30px 0 0 0;
+width:473px;
+height:195px;
+background-color:#414147;
+}
+
+
+.tags h2{
+font:bold 20px "Century Gothic";
+text-transform: uppercase ;
+color:#FFE900;
+padding:35px 0 0 35px;;
+}
+.tags ul {
+margin:35px;
+
+
+}
+
+
+.tags ul li {
+display:inline;
+
+
+}
+
+
+.tags ul li  a{
+display:inline;
+font:bold 16px "Century Gothic";
+text-transform: uppercase ;
+color:#414147;
+background-color:#FFE900;
+padding:0 10px 0 10px;
+}
+
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.col_1_of_3{
+	display: block;
+	float:left;
+	margin:0% 0 0% 4.6%;
+}
+.col_1_of_3:first-child { margin-left: 0; }
+.span_1_of_3 {
+	width: 30.2%;
+}
+
+.span_1_of_3  h4{
+	color:#fff;
+	margin-bottom:20px;
+
+}
+.span_1_of_3  p  {
+
+}
+
+
+.footer-top {
+background-color:#414145 ;
+}
+
+.footer{
+font:bold 13px "Century Gothic";
+
+color:#FFFFFF;
+
+}
+.footer h3 {
+
+font:bold 18px "Century Gothic";
+
+color:#FFFFFF;
+
+
+}
+
+
+.social-icons ul li ,.gallery ul li{
+
+display:inline;
+}
+.
+
+.footer-bottom .wrap{
+
+background-color:#000000;
+}
+
+
+.footer-nav ul {
+
+background-color:#000000;
+}
+
+
+.footer-nav ul li{
+display:inline;
+background-color:#000000;
+}
+
+
+.footer-nav ul li a{
+font:bold 16px "Century Light";
+color:#FFFFFF;
+background-color:#000000;
+}
